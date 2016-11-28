@@ -18,7 +18,7 @@ $ composer dump-autoload
 
 And then add the service provider in `config/app.php`:
 ``` php
-TomLegkov\EncryptedFields\EncryptedFieldsServiceProvider::class,
+TomLegkov\EncryptableFields\EncryptableFieldsServiceProvider::class,
 ```
 
 And now you can publish the config:
